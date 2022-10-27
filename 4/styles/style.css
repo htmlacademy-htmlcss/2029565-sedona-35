@@ -1,0 +1,479 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+html {
+  height: 100%;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #F2F2F2;
+  font-family: "PT Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 1200px;
+  padding: 0 70px 0 239px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.logo-link {
+  display: block;
+  width: 140px;
+  position: absolute;
+  top: 0;
+  left: 69px;
+}
+
+.navigation-list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 440px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation-user {
+  max-width: 300px;
+  margin-left: auto;
+}
+
+.navigation-item {
+  padding: 20px 16px;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.main-index {
+  flex-grow: 1;
+}
+
+.welcome {
+  width: 1200px;
+  padding-top: 50px;
+  padding-bottom: 83px;
+  background-image: url("../images/index-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #333333;
+  background-position: center top;
+}
+
+.welcome-img {
+  display: block;
+  width: 458px;
+  margin: 0 auto;
+}
+
+.reasons {
+  padding-top: 69px;
+  text-align: center;
+}
+
+.reasons-title {
+  display: block;
+  width: 620px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.reasons-description {
+  margin-bottom: 90px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.advantages-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.advantages-item {
+  display: flex;
+  background: rgba(131, 179, 211, 0.12);
+}
+
+.advantages-container {
+  width: 400px;
+  min-height: 371px;
+  padding-top: 97px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+}
+
+.advantages-item--special .advantages-container {
+  padding-top: 92px;
+}
+
+
+.advantages-item--special {
+  color: #ffffff;
+  background-color: #82b3d3;
+}
+
+
+.advantages-item--oliva {
+  background: rgba(131, 179, 211, 0.2);
+}
+
+.advantages-title {
+  width: 172px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.advantages-img-container {
+  width: 800px;
+  height: 100%;
+  overflow: hidden;
+}
+
+.advantages-img {
+  width: auto;
+  height: 100%;
+}
+
+.advantages-description {
+  line-height: 21px;
+  margin: 0 auto;
+  width: 230px;
+  padding-top: 62px;
+}
+
+.hint-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.hint-item {
+  width: 400px;
+  text-align: center;
+}
+
+.hint-container {
+  width: 400px;
+  min-height: 371px;
+  padding-top: 97px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+}
+
+.hint-title {
+  width: 230px;
+  margin: 0 auto;
+  padding-top: 86px;
+  padding-bottom: 27px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+.hint-description {
+  width: 172px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+}
+
+.hotel-search {
+  width: 1200px;
+  padding-top: 50px;
+  padding-bottom: 83px;
+  text-align: center;
+}
+
+.hotel-search-title {
+  display: block;
+  width: 297px;
+  margin: 0 auto;
+  padding-top: 59px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.hotel-search-description {
+  display: block;
+  width: 592px;
+  margin: 0 auto;
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+
+.hotel-search-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #756157;
+  text-decoration: none;
+  padding: 9px 9px;
+  min-width: 357px;
+  display: inline-block;
+  text-align: center;
+  max-width: 450px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin: 0 auto;
+  margin-bottom: 13px;
+  margin-top: 53px;
+}
+
+.newsletter {
+  background: #333333 url("../images/newsletter.jpg") no-repeat center top;
+  background-size: cover;
+  text-align: center;
+  width: 1200px;
+  padding-top: 50px;
+  padding-bottom: 73px;
+  background-repeat: no-repeat;
+  background-color: #333333;
+  background-position: center top;
+}
+
+.newsletter-title {
+  display: block;
+  width: 404px;
+  margin: 0 auto;
+  padding-top: 46px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+.newsletter-description {
+  display: block;
+  width: 476px;
+  margin: 0 auto;
+  padding-top: 19px;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+
+}
+
+.newsletter-field {
+  display: inline-block;
+  text-align: left;
+  padding-top: 19px;
+  padding-bottom: 7px;
+  padding-left: 18px;
+  padding-right: 211px;
+  margin-left: 258px;
+  margin-top: 53px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.newsletter-button {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  color: #FFFFFF;
+  background-color: #82B3D3;
+  text-transform: uppercase;
+  margin-top: 53px;
+  padding: 8px 37px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts-address-phone {
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 40px;
+}
+
+.main-inner {
+  flex-grow: 1;
+}
+
+.inner-container {
+  width: 1200px;
+  padding-bottom: 83px;
+  background-image: url("../images/inner-background.jpg");
+  background-color: #333333;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+.breadcrumbs {
+  display: flex;
+  list-style: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.catalog-filter-form {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.catalog-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 70px 16px 70px;
+}
+
+.catalog--nav-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+
+.product-card-list {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin-left: 30px;
+}
+
+.product-card {
+  width: 340px;
+  border: 1px solid #333333;
+
+}
+.pagination {
+  display: flex;
+  list-style: none;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin: 0;
+  padding-top: 19px;
+  padding-left: 19px;
+}
+
+.product-card-discription {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+
+.product-card-image {
+  display: block;
+  width: 300px;
+  margin: 0 auto;
+  padding-top: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
