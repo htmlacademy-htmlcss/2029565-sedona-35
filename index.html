@@ -174,8 +174,9 @@
           </ul>
           <a class="contacts-address-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
           <a class="footer-logo-link" href="https://htmlacademy.ru/">
-            <svg class="footer-logo-icon" aria-hidden="true" aria-hidden="true" width="115" height="34" viewBox="0 0 115 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 13.2564V15.8564H2.5V13.2564H0Z"/>
+            <svg class="footer-logo-icon" aria-hidden="true" aria-hidden="true" width="115" height="34"
+              viewBox="0 0 115 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 13.2564V15.8564H2.5V13.2564H0Z" />
               <path
                 d="M11.6 4.85645C10 4.85645 8.8 5.55645 8 6.55645H7.9V0.356445H5.9V15.8564H7.9V10.5564C7.9 8.45645 9.2 6.95645 11.2 6.95645C13 6.95645 14.1 8.35645 14.1 10.1564V15.8564H16.1V9.75644C16.2 6.75644 14.3 4.85645 11.6 4.85645Z" />
               <path
@@ -199,14 +200,45 @@
               <path
                 d="M109.4 27.3564L105.8 18.4564H103.6L108.4 30.0564C108.1 30.9564 107.7 31.2564 106.7 31.2564H104.2V33.2564H106.7C108.5 33.2564 109.5 32.4564 110.2 30.6564L114.9 18.4564H112.8L109.4 27.3564Z" />
             </svg>
-
           </a>
         </section>
       </footer>
-    </div>
-    <section class="modal">
-
-    </section>
+      <div class="modal-container">
+        <div class="modal modal-booking">
+          <button class="modal-close-button">
+            <span class="visually-hidden">Закрыть</span>
+          </button>
+          <section class="modal-content">
+            <h2 class="modal-title">Поиск гостиницы в Седоне</h2>
+            <form class="booking-form" action="https://echo.htmlacademy.ru/" method="post">
+              <p class="field-group booking-form-check-in">
+              <label class="form-label form-label-check-in" for="check-in">Дата Заезда:</label>
+              <input class="booking-form-field field" type="text" id="check-in" name="check-in"
+                placeholder="27 апреля 2020">
+                </p>
+            <p class="error">Мы не можем отправить вас в прошлое.</p>
+            <p class="field-group booking-form-departure">
+              <label class="form-label form-label-departure" for="departure">Дата Выезда:</label>
+              <input class="booking-form-field field" type="text" id="departure" name="departure"
+                placeholder="1 сентября 2023">
+            </p>
+            <p class="agreed">На эти даты есть свободные номера. Пока есть.</p>
+            <div class="form-container">
+            <p class="field-group booking-form-adult-number">
+              <label class="form-label form-label-adult-number" for="adult-number">Взрослые:</label>
+              <input class="booking-form-field number-field" type="text" id="adult-number" name="adult-number"
+                placeholder="2">
+            </p>
+            <p class="field-group booking-form-children-number">
+              <label class="form-label form-label-children-number" for="children-number">Дети:</label>
+              <input class="booking-form-field number-field" type="text" id="children-number" name="children-number" placeholder="2">
+            </p>
+            </div>
+              <button class="booking-form-button" type="submit">Найти</button>
+            </form>
+            <p class="info">Укажите количество детей, которые будут с вами, возраст которых от 6 до 18 лет. Дети до 6 лет размещаются бесплатно.</p>
+          </section>
+        </div>
   </body>
 
 </html>
