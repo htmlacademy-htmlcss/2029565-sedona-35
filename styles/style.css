@@ -497,7 +497,7 @@ body {
   padding-left: 19px;
   padding-right: 20px;
   text-align: left;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 24px;
@@ -519,7 +519,7 @@ input:focus {
   word-wrap: break-word;
   width: 232px;
   padding: 7px 37px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
@@ -862,7 +862,7 @@ input:focus {
   padding-left: 20px;
   padding-right: 20px;
   text-align: left;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -979,7 +979,7 @@ input:focus {
   margin: 0;
   margin-bottom: 32px;
   padding: 8px 51px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -1016,7 +1016,7 @@ input:focus {
   min-width: 192px;
   margin: 0;
   padding: 8px 51px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-size: 16px;
   line-height: 20px;
@@ -1073,7 +1073,7 @@ input:focus {
   margin-right: 70px;
   padding: 12px 18px;
   padding-right: 48px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-size: 18px;
   line-height: 21px;
@@ -1485,7 +1485,7 @@ input:focus {
   width: 413px;
   margin: 0;
   padding: 0;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -1514,7 +1514,7 @@ input:focus {
 
 .booking-form-field {
   text-align: left;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 24px;
@@ -1630,7 +1630,7 @@ input:focus {
   display: inline-block;
   word-wrap: break-word;
   width: 577px;
-  font-family: 'PT Sans';
+  font-family: 'PT Sans', sans-serif;
   font-weight: 700;
   font-size: 20px;
   line-height: 36px;
